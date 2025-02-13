@@ -80,7 +80,7 @@ console.log("-------------------ESERCIZIO 4-------------------");
 const boundary = function (n) {
   if ((n >= 20 && n <= 100) || n === 400) {
     return "Il Numero Corrisponde a " + true;
-  } else "Il Numero Corrisponde a" + false;
+  } else return "Il Numero Corrisponde a " + false;
 };
 console.log(boundary(50));
 console.log(boundary(10));
