@@ -80,16 +80,10 @@ console.log("-------------------ESERCIZIO 4-------------------");
 const boundary = function (n) {
   if ((n >= 20 && n <= 100) || n === 400) {
     return "Il Numero Corrisponde a " + true;
-  }
+  } else "Il Numero Corrisponde a" + false;
 };
 console.log(boundary(50));
-
-const boundary2 = function (n) {
-  if ((n >= 20 && n <= 100) || n === 400) {
-    return "Il Numero Corrisponde a" + true;
-  }
-};
-console.log(boundary2(10));
+console.log(boundary(10));
 
 /* ESERCIZIO 5
  Scrivi una funzione di nome "epify" che accetta una stringa come parametro.
