@@ -97,7 +97,6 @@ console.log(epify1("Epicode é un'ottima accademia"));
 
 console.log("-----Soluzione 2-----");
 const epify2 = function (str) {
-  // Usa indexOf per verificare se la stringa inizia con "EPICODE"
   if (str.indexOf("Epicode") === 0) {
     return str;
   } else {
