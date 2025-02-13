@@ -58,16 +58,7 @@ const crazyDiff = function (n) {
 
 let risultato3 = crazyDiff(10);
 console.log(risultato3);
-
-const crazyDiff2 = function (n) {
-  if (n < 19) {
-    return 19 - n;
-  } else {
-    return (n - 19) * 3;
-  }
-};
-
-let risultato4 = crazyDiff2(20);
+let risultato4 = crazyDiff(20);
 console.log(risultato4);
 
 /* ESERCIZIO 4
